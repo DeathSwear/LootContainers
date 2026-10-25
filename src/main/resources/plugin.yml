@@ -1,0 +1,13 @@
+name: LootContainers
+version: 1.2.2
+main: ru.deathswear.lootcontainers.LootContainersPlugin
+api-version: '1.21'
+depend: [MythicMobs]
+commands:
+  lootcontainers:
+    aliases: [lootcontainer, lc]
+    permission: lootcontainers.admin
+    usage: /lootcontainers <reload|restart|clear>
+permissions:
+  lootcontainers.admin:
+    default: op
